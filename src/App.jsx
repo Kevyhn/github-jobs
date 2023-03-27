@@ -29,9 +29,10 @@ function App() {
           <>
             <Header jobs={jobs} setJobs={setJobs} jobsStored={jobsStored} setPages={setPages}/>
             <Main jobs={jobs} pages={pages} setPages={setPages}/>
+            <footer>Created by <a href="https://github.com/Kevyhn">Kevyhn</a></footer>
           </>          
         )
-      } 
+      }       
     </div>
   )
 }

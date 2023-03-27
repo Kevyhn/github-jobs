@@ -380,6 +380,11 @@ body {
    animation: shine 800ms linear infinite;	  
 }
 
+footer {
+	font-size: 17px;
+	text-align: center;
+}
+
 @keyframes shine {	
    to {
    	background-position: 200% 0, /* move highlight to right */ 0 0;

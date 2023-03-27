@@ -142,7 +142,7 @@ export const Main = ({jobs, pages, setPages}) => {
 		      			<Paginate prevPages={prevPages} pages={pages} getPage={getPage} nextPages={nextPages}/>
 		      		</div>
 	      		)		      	
-	   		}
+	   		}	   		
 	    </div>	      	      	
 	)
 }
